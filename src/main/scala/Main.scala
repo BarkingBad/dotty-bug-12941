@@ -1,7 +1,7 @@
 class I:
   def runSth: Int = 1
 
-abstract class A:
+class A:
   def myFun(op: I ?=> Unit) =
     op(using I())
     1
@@ -12,7 +12,7 @@ class B extends A
   
   B().myFun {
     val res = summon[I].runSth
-    org.junit.Assert.assertEquals("", 1, res, "asd")
-    // org.junit.Assert.assertEquals("", 1, res)
+    // org.junit.Assert.assertEquals("", 1, res, "asd")
+    org.junit.Assert.assertEquals("", 1, res)
     println("Hello!")
   }
