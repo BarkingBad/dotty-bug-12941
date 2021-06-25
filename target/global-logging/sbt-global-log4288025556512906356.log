@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(d667a708-b44c-4c86-8f63-d6e1a250d428), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/aratajczak/Dokumenty/Praca/Scala/compiler-bug/target/scala-3.0.0/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: /home/aratajczak/Dokumenty/Praca/Scala/compiler-bug/src/main/scala/Main.scala:13:23 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m    [33mval[0m [36mres[0m = summon[[35mI[0m].runSth[0m
+[0m[[0m[31merror[0m] [0m[0m   |                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |no implicit argument of type I was found for parameter x of [33mmethod[0m [35msummon[0m in [33mobject[0m [35mPredef[0m[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 25 cze 2021, 16:00:47[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
